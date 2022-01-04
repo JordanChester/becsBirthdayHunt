@@ -1,0 +1,53 @@
+@import url(https://fonts.googleapis.com/css2?family=Spectral);
+body {
+  font-family: "Spectral", sans-serif;
+  font-size: 1em;
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 100%;
+}
+#content {
+  padding: 0 15px;
+}
+header {
+  display: flex;
+  font-size: 10px;
+  background-color: lightpink;
+  justify-content: space-around;
+  align-items: center;
+}
+#topBar h1 a {
+  text-decoration: none;
+}
+#woopWoop ul {
+  list-style: none;
+}
+#woopWoop ul li {
+  font-size: 12px;
+}
+#borderGap {
+  display: flex;
+  height: 5px;
+}
+#border {
+  display: flex;
+  height: 5px;
+  background-color: lightpink;
+}
+.kitchenClue {
+  display: none;
+}
+.kitchenClue img {
+  margin-top: 15px;
+  margin-left: 45px;
+}
+.clueToggle {
+  display: inline-block;
+  margin-left: 45px;
+  border: 1px solid #999;
+  padding: 5px;
+  border-radius: 6px;
+  background-color: lightpink;
+}
