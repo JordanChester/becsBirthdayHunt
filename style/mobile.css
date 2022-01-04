@@ -118,11 +118,10 @@ section h2 {
   color: lightpink;
 }
 footer p {
-  display: inline;
+  display: inline-flex;
+  align-items: center;
+  font-size: 9px;
   color: rgb(255, 234, 41);
-}
-footer .bigHeart {
-  color: rgb(255, 153, 168);
 }
 footer {
   margin: 0;
