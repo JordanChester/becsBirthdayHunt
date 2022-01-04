@@ -27,27 +27,108 @@ header {
 #woopWoop ul li {
   font-size: 12px;
 }
+#woopWoop a {
+  text-decoration: none;
+  color: #000;
+}
 #borderGap {
   display: flex;
   height: 5px;
+  background-color: lemonchiffon;
+}
+#borderGapPink {
+  display: flex;
+  height: 5px;
+  background-color: lightpink;
 }
 #border {
   display: flex;
   height: 5px;
   background-color: lightpink;
 }
-.kitchenClue {
+section h2 {
+  text-align: center;
+}
+.Clue {
   display: none;
 }
-.kitchenClue img {
+.Clue img {
   margin-top: 15px;
   margin-left: 45px;
+}
+.Clue h4 {
+  margin-left: 45px;
+}
+.Clue p a {
+  text-decoration: none;
+  color: #000;
+}
+.thirdPageClue p {
+  display: inline;
+}
+.thirdPageClue p:first-child {
+  margin-left: 45px;
+}
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+.moveRight {
+  float: right;
+}
+.noseBoop {
+  position: absolute;
+  top: 58%;
+  left: 49%;
+  transform: translate(-50%, -45%);
+}
+.noseBoop a {
+  text-decoration: none;
+  color: #000;
 }
 .clueToggle {
   display: inline-block;
   margin-left: 45px;
-  border: 1px solid #999;
+  border: 1px solid #000;
   padding: 5px;
   border-radius: 6px;
   background-color: lightpink;
+}
+#findHyperlink {
+  display: flex;
+  margin: 268px 82px;
+}
+#findHyperlink a {
+  text-decoration: none;
+  color: #fff;
+}
+#photoBlock {
+  padding-top: 50px;
+}
+#lightSlider img {
+  margin-top: 15px;
+  padding-left: 4px;
+  width: 95%;
+  height: auto;
+}
+.heart {
+  text-align: center;
+  color: lightpink;
+}
+footer p {
+  display: inline;
+  color: rgb(255, 234, 41);
+}
+footer .bigHeart {
+  color: rgb(255, 153, 168);
+}
+footer {
+  margin: 0;
+  bottom: 0px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(173, 121, 128);
 }
